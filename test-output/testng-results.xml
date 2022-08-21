@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[===Application started===]]>
+    </line>
+    <line>
+      <![CDATA[===test done===]]>
+    </line>
+    <line>
+      <![CDATA[====browser session end====]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-21T08:48:03 BST" name="Default suite" finished-at="2022-06-21T08:49:41 BST" duration-ms="98534">
+    <groups>
+    </groups>
+    <test started-at="2022-06-21T08:48:03 BST" name="Default test" finished-at="2022-06-21T08:49:41 BST" duration-ms="98534">
+      <class name="selenium.email.test_email">
+        <test-method is-config="true" signature="setupApplication()[pri:0, instance:selenium.email.test_email@35e2d654]" started-at="2022-06-21T08:48:03 BST" name="setupApplication" finished-at="2022-06-21T08:48:22 BST" duration-ms="18620" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Application started===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupApplication -->
+        <test-method signature="sendMail()[pri:0, instance:selenium.email.test_email@35e2d654]" started-at="2022-06-21T08:48:22 BST" name="sendMail" finished-at="2022-06-21T08:49:41 BST" duration-ms="79486" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===test done===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:selenium.email.test_email@35e2d654]" started-at="2022-06-21T08:49:41 BST" name="closedriver" finished-at="2022-06-21T08:49:41 BST" duration-ms="374" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[====browser session end====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- selenium.email.test_email -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
